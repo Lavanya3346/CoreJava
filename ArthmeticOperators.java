@@ -2,24 +2,32 @@ package lavanya;
 
 public class ArthmeticOperators {
 public static void main(String[] args) {
-	int a = 16;
-	int b = 7;
-	System.out.println("Arthmetic Operators");
-	System.out.println("Add:"+ (a+b));
-	System.out.println("Sub:"+(a-b));
-	System.out.println("mul:"+(a*b));
-	System.out.println("div:"+(a/b));
-	System.out.println("moduls:"+(a%b));
-	//Relational Operators
-	System.out.println("Relational Operators");
-	System.out.println("lessthan:"+(a<b));
-	System.out.println("graterthan:"+(a>b));
-	System.out.println("equalto:"+(a==b));
-	System.out.println("not equalto:"+(a!=b));
-	System.out.println("gteaterthan equal:"+(a<=b));
-	System.out.println("lessthan equal:"+(a>=b));
-	
-	
+	int a = 15;
+	int b = 4;
+	int addition = a+b;
+    int subtraction = a-b;
+    int multiplication = a*b;
+    int division = a/b;
+    int modulus = a%b;
+    boolean isGreater = a>b;
+    boolean isEqual = a==b;
+
+    System.out.println("Addition: " + addition);
+    System.out.println("Subtraction: " + subtraction);
+    System.out.println("Multiplication: " + multiplication);
+    System.out.println("Division: " + division);
+    System.out.println("Modulus: " + modulus);
+    System.out.println("Is a > b? " + isGreater);
+    System.out.println("Is a == b? " + isEqual);
+	//task-2 Directly print the result without storing//
+    System.out.println();
+    System.out.println("Addition: " + (a + b));
+    System.out.println("Subtraction: " + (a - b));
+    System.out.println("Multiplication: " + (a * b));
+    System.out.println("Division: " + (a / b));
+    System.out.println("Modulus: " + (a % b));
+    System.out.println("a > b: " + (a > b));
+    System.out.println("a == b: " + (a == b));
 	
 	
 	
